@@ -1,43 +1,49 @@
-# 🏇 Derby Betting Model 2025
+# 🏇 Derby Betting Model — Data Science with Horse Racing
 
-This is a hands-on machine learning and data science project that builds a horse racing betting model for the **2025 Betfred Derby**, using Python and Jupyter Notebooks.
+This project builds a transparent, educational model for analysing and predicting outcomes in high-level UK flat horse races — starting with races like the **Epsom Derby**.
 
-It starts from scratch and evolves week by week — documenting everything in readable, well-commented notebooks.
+It’s designed to teach, document, and showcase skills in:
 
----
-
-## 📘 Project Scope
-
-- Understand how bookmaker odds work  
-- Create features from race data (jockey, trainer, speed, form, etc.)  
-- Predict win probabilities using ML models  
-- Compare model vs market to find value  
-- Simulate the 2025 Derby  
+- Exploratory data analysis (EDA)
+- Data cleaning & feature engineering
+- Betting market behaviour
+- Predictive modelling
+- Real-world sports data strategy
 
 ---
 
-## 📁 Lessons So Far
+## 📚 Lessons So Far
 
-| Lesson | Topic | Notebook |
-|--------|-------|----------|
-| ✅ 01 | Understanding Odds & Implied Probability | `lesson01-understanding-odds.ipynb` |
-| ⏳ 02 | Feature Relationships & Visualisation | *(coming soon)* |
-| ⏳ 03 | Predictive Modeling on Past Races | *(coming soon)* |
-| ⏳ 04 | Simulating the 2025 Derby | *(coming soon)* |
+### `lesson-01-eda-derby-race-structure.ipynb`
+We explore real 2019 UK race data to understand what Derby-type races *look like*:
 
----
+- Race distance and going conditions
+- Field size and structure
+- What we include, what we filter, and why
 
-## 🛠️ Tools Used
-
-- Python 3  
-- Jupyter Notebooks  
-- pandas, NumPy, matplotlib, seaborn  
-- scikit-learn  
+This gives us the **environment** in which both horses and betting markets operate.
 
 ---
 
-## 🧠 Author Notes
+### `lesson-02-market-odds-and-favourites.ipynb` *(coming soon)*
+We’ll investigate:
 
-This project is designed to show step-by-step thinking and learning. It's suitable for anyone interested in sports analytics, machine learning, or betting strategy.
+- How often favourites win
+- What odds distributions look like
+- Whether market prices reflect reality
 
-Feel free to fork, clone, or contact me if you're working on something similar!
+This is the first step toward identifying **value bets** and understanding **market efficiency**.
+
+---
+
+## 📂 Data Sources
+
+We’re using public 2019 UK horse racing data from [Kaggle](https://www.kaggle.com/datasets/hwaitt/horse-racing), merged and filtered within each notebook.
+
+Live data sources (scraping or API access) will be explored in a later notebook.
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational and analytical purposes only**. It does not provide betting advice. Always gamble responsibly.
