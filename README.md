@@ -60,13 +60,50 @@ Our early questions:
 └── requirements.txt
 ```
 
-## 🚧 Coming Next
+## 🗓️ Roadmap: May–June 2025
 
-- ✅ Data integrity checks  
-- 🔍 Feature audits  
-- 📊 Early favourite analysis  
-- 🕸️ Live data scraping and model deployment  
+We're building this project in the run-up to the **2025 Epsom Derby (June 7)**.
+
+This is a short-term learning sprint with a clear goal:
+
+- 🧠 Build a working model using public data  
+- 🏇 Apply it to the 2025 Derby field  
+- 💸 Make a few small, informed bets for fun and insight
 
 ---
 
-Want to follow the project? **Star this repo** and check back for updates.
+### ✅ Phase 1: Data Foundations (✅ In Progress)
+- Load & audit raw 2019 racing data  
+- Document feature availability  
+- Explore data integrity (missing, weird, placeholder values)  
+- Structure notebooks around clean process  
+
+---
+
+### 🔎 Phase 2: Early Analysis
+- What do Derby-like races look like?  
+- How often do favourites win?  
+- What features might help us predict outcomes?  
+
+---
+
+### 🤖 Phase 3: First Model
+- Train simple model on 2019 races (LogReg, Decision Tree)  
+- Estimate win probabilities  
+- Compare to market odds  
+
+---
+
+### 🧮 Phase 4: Derby Application
+- Scrape (or manually collect) 2025 Epsom Derby racecard  
+- Run predictions using our model  
+- Look for potential value bets  
+- Place small real bets for learning/testing  
+
+---
+
+📌 **Note:** We're *not* using premium or paid data — all modelling is based on **free, public sources only**.
+
+---
+
+⭐ *Want to follow the project? Star this repo and check back for updates.*
